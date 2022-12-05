@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Kenia&family=PT+Sans+Narrow&family=Zen+Dots&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+}
+ p, h2{
+    font-family: 'IBM Plex Mono', monospace;
+font-family: 'Kenia', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Zen Dots', cursive;
+ }
+.header{
+    margin: 20px 0;
+}
+.box{
+    width: 800px;
+    margin: 0 auto;
+}
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display:  flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 0 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu ul li a{
+    color: black;
+    
+}
+
+.btn-for-action{
+    background-color: red;
+    padding: 5px 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+    margin: 5px 0;
+}
+
+.slider{
+    background-color: rgb(221, 226, 230);
+    border-radius: 50px;
+    /* margin-top: 20px; */
+   
+}
+.slider-area{
+    display: flex;
+    align-items: center;
+    padding: 50px 0; 
+}
+
+.hero-image{
+    
+    padding-left: 30px;
+}
+.hero-text{
+    padding-right: 30px;
+}
+
+.hero-text h2, .hero-text p{
+    margin-bottom: 20px;
+}
